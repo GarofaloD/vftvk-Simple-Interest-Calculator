@@ -42,6 +42,6 @@ function compute()
 //Update the rate value dynamically when working with the slider
 function updateRate(){
     let rateVal = document.querySelector('#rate').value;
-    document.querySelector('#rate_val').innerText = rateVal
+    document.querySelector('#rate_val').innerText = rateVal + '%'
 }
 
